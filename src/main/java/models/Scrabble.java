@@ -33,6 +33,8 @@ public class Scrabble {
     allLetters.put('w', 4);
     allLetters.put('y', 4);
     allLetters.put('k', 5);
+    allLetters.put('j', 8);
+    allLetters.put('x', 8);
 
     int result = 0;
     for (char character : inputedCharacters) {
