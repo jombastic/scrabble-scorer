@@ -35,6 +35,8 @@ public class Scrabble {
     allLetters.put('k', 5);
     allLetters.put('j', 8);
     allLetters.put('x', 8);
+    allLetters.put('q', 10);
+    allLetters.put('z', 10);
 
     int result = 0;
     for (char character : inputedCharacters) {
