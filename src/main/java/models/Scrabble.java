@@ -41,7 +41,7 @@ public class Scrabble {
     int result = 0;
     for (char character : inputedCharacters) {
       if (allLetters.containsKey(character)) {
-        result = allLetters.get(character);
+        result += allLetters.get(character);
       }
     }
     return result;
