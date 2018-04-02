@@ -27,6 +27,11 @@ public class Scrabble {
     allLetters.put('c', 3);
     allLetters.put('m', 3);
     allLetters.put('p', 3);
+    allLetters.put('f', 4);
+    allLetters.put('h', 4);
+    allLetters.put('v', 4);
+    allLetters.put('w', 4);
+    allLetters.put('y', 4);
 
     int result = 0;
     for (char character : inputedCharacters) {
