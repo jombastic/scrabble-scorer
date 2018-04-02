@@ -23,6 +23,10 @@ public class Scrabble {
     allLetters.put('t', 1);
     allLetters.put('d', 2);
     allLetters.put('g', 2);
+    allLetters.put('b', 3);
+    allLetters.put('c', 3);
+    allLetters.put('m', 3);
+    allLetters.put('p', 3);
 
     int result = 0;
     for (char character : inputedCharacters) {
